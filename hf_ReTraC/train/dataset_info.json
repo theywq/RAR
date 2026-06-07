@@ -1,0 +1,51 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gold_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prefix": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "num_prefix_steps": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "total_steps": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "trajectory_label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "recoverability": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "success_count": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "num_rollouts": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "rollout_answers": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
